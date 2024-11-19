@@ -1,0 +1,38 @@
+{
+    "physics": [
+        {
+            "question": "What is the SI unit of force?",
+            "answers": ["Newton", "Pascal", "Joule", "Watt"],
+            "correct": 0
+        },
+        {
+            "question": "What is the acceleration due to gravity on Earth?",
+            "answers": ["9.8 m/s²", "10 m/s²", "12 m/s²", "15 m/s²"],
+            "correct": 0
+        }
+    ],
+    "chemistry": [
+        {
+            "question": "What is the chemical symbol for water?",
+            "answers": ["O2", "H2O", "CO2", "HO"],
+            "correct": 1
+        },
+        {
+            "question": "What is the pH value of pure water?",
+            "answers": ["6", "7", "8", "5"],
+            "correct": 1
+        }
+    ],
+    "computer": [
+        {
+            "question": "What does HTML stand for?",
+            "answers": ["Hyper Text Markup Language", "Hyperlinks and Text Markup Language", "Home Tool Markup Language", "Hyper Tech Markup Language"],
+            "correct": 0
+        },
+        {
+            "question": "Which programming language is known as the backbone of web development?",
+            "answers": ["Python", "JavaScript", "Ruby", "C++"],
+            "correct": 1
+        }
+    ]
+}

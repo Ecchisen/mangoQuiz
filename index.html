@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <!-- General Styles -->
+    <link rel="stylesheet" href="./css/main.css">
+    <!-- Home Page Styles -->
+    <link rel="stylesheet" href="./css/home.css">
+    <!-- Quiz Styles -->
+    <link rel="stylesheet" href="./css/quiz.css">
+</head>
+<body>
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Home Page: Subject Selection -->
+        <div id="home">
+            <h1>Quiz Game</h1>
+            <p>Select a subject to start:</p>
+            <div class="subjects">
+                <div class="subject" data-subject="physics">Physics</div>
+                <div class="subject" data-subject="chemistry">Chemistry</div>
+                <div class="subject" data-subject="biology">Biology</div>
+                <div class="subject" data-subject="computer">Computer</div>
+                <div class="subject" data-subject="math">Math</div>
+            </div>
+        </div>
+
+        <!-- Settings Dialog -->
+        <div id="settings-dialog" style="display: none;">
+            <h2>Quiz Settings</h2>
+            <label for="num-questions">Number of Questions:</label>
+            <input type="number" id="num-questions" placeholder="Enter number of questions" />
+
+            <label for="time-limit">Time Limit (minutes):</label>
+            <input type="number" id="time-limit" placeholder="Enter time limit" />
+            <label>
+                <input type="checkbox" id="infinite-time" /> No Time Limit
+            </label>
+
+            <div class="dialog-buttons">
+                <button id="start-quiz">Start Quiz</button>
+                <button id="cancel-settings">Cancel</button>
+            </div>
+        </div>
+
+        <!-- Quiz Container -->
+        <div id="quiz-container" style="display: none;"></div>
+        <div id="timer" style="font-size: 20px; font-weight: bold; margin-top: 10px;"></div>
+
+    <!-- JavaScript -->
+    <script src="./js/app.js" defer></script>
+    <script src="./js/quiz.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+/* home.css */
+#home {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.subjects {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.subject {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 15px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: transform 0.3s ease;
+}
+
+.subject:hover {
+    transform: scale(1.1);
+    background-color: #007bff;
+    color: white;
+}
